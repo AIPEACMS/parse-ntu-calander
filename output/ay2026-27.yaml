@@ -1,0 +1,44 @@
+academic_year: 2026-27
+semester_1:
+  weeks:
+    - 1 2 3 4 1 4 1 2 3 4 5 Teaching Week
+    - 5 6 7 8 9 10 11 2 3 4 5 6 7 8 5 6 7 8 9 10 11 12 Recess Week
+    - 12 13 14 15 16 17 18 1 9 10 11 12 13 14 15 6 13 14 15 16 17 18 19 Revision and Examination Week
+    - 19 20 21 22 23 24 25 2 16 17 18 19 20 21 22 7 20 21 22 23 24 25 26
+    - 26 27 28 29 30 31 3 23 24 25 26 27 28 29 27 28 29 30
+  key_events:
+    - Convocation 21 Jul - 1 Aug 2026
+    - Orientation Activities 20 Jul - 6 Aug 2026
+    - UG Qualifying English Test 31 Jul 2026
+    - University Welcome 3 - 4 Aug 2026
+    - State of the University Address 12 Oct 2026
+    - Students’ Union Day 4 Sep 2026
+semester_2:
+  weeks:
+    - 1 2 4 1 2 3 4 5 6 1 2 3 4 5 6
+  public_holidays:
+    - National Day 9 Aug 2026
+    - Deepavali 8 Nov 2026
+    - Christmas Day 25 Dec 2026
+    - New Year's Day 1 Jan 2027
+    - Chinese New Year 6 - 7 Feb 2027
+    - Hari Raya Puasa 10 Mar 2027
+    - Good Friday 26 Mar 2027
+    - Labour Day 1 May 2027
+    - Hari Raya Haji 17 May 2027
+    - Vesak Day 20 May 2027
+special_term:
+  note: "Chinese New Year, Hari Raya Puasa and Deepavali 2027 MAY JUNE JULY S M T W T F S\
+  \ S M T W T F S S M T W T F S 1 4 1 2 3 4 5 8 1 2 3 Notice to All Undergraduate\
+  \ NSMen: Teaching Week Teaching Week Teaching Week 2 16 17 18 19 20 21 22 7 20 21\
+  \ 22 23 24 25 26 11 18 19 20 21 22 23 24 3 23 24 25 26 27 28 29 8 27 28 29 30 12\
+  \ 25 26 27 28 29 30 31 1st 12 7 Dec 2026 - 7 Jun - 1 Aug 2027 4 30 31 2nd and 3rd\
+  \ 10 3 Jan 2027 21 Jun - 1 Aug 2027 > Courses offered during the special term could\
+  \ be research, attachment, fieldwork, courses for graduate students or part-time\
+  \ undergraduate students and summer programmes. Graduating students may clear their\
+  \ remaining academic unit requirement through summer programmes but they will not\
+  \ be able to join the year\u2019s convocation. Notes: (1) All dates are subject\
+  \ to change at the discretion of the University. (2) Research students in graduate\
+  \ programmes are expected to work on their research projects throughout the period\
+  \ of their candidature, subject to prevailing terms, requirements and entitlements.\
+  \ Published on 19 May 2026"
