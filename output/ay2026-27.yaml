@@ -1,11 +1,66 @@
 academic_year: 2026-27
 semester_1:
   weeks:
-    - 1 2 3 4 1 4 1 2 3 4 5 Teaching Week
-    - 5 6 7 8 9 10 11 2 3 4 5 6 7 8 5 6 7 8 9 10 11 12 Recess Week
-    - 12 13 14 15 16 17 18 1 9 10 11 12 13 14 15 6 13 14 15 16 17 18 19 Revision and Examination Week
-    - 19 20 21 22 23 24 25 2 16 17 18 19 20 21 22 7 20 21 22 23 24 25 26
-    - 26 27 28 29 30 31 3 23 24 25 26 27 28 29 27 28 29 30
+    - week: 1
+      type: teaching
+      start: 2026-08-10
+      end: 2026-08-16
+    - week: 2
+      type: teaching
+      start: 2026-08-17
+      end: 2026-08-23
+    - week: 3
+      type: teaching
+      start: 2026-08-24
+      end: 2026-08-30
+    - week: 4
+      type: teaching
+      start: 2026-08-31
+      end: 2026-09-06
+    - week: 5
+      type: teaching
+      start: 2026-09-07
+      end: 2026-09-13
+    - week: 6
+      type: teaching
+      start: 2026-09-14
+      end: 2026-09-20
+    - week: 7
+      type: teaching
+      start: 2026-09-21
+      end: 2026-09-27
+    - week: 8
+      type: recess
+      start: 2026-09-28
+      end: 2026-10-04
+    - week: 9
+      type: teaching
+      start: 2026-10-05
+      end: 2026-10-11
+    - week: 10
+      type: teaching
+      start: 2026-10-12
+      end: 2026-10-18
+    - week: 11
+      type: teaching
+      start: 2026-10-19
+      end: 2026-10-25
+    - week: 12
+      type: teaching
+      start: 2026-10-26
+      end: 2026-11-01
+    - week: 13
+      type: teaching
+      start: 2026-11-02
+      end: 2026-11-08
+    - week: 14
+      type: exam
+      start: 2026-11-09
+      end: 2026-11-15
+    - week: 15
+      type: exam
+      start: 2026-11-16
+      end: 2026-11-22
   key_events:
     - Convocation 21 Jul - 1 Aug 2026
     - Orientation Activities 20 Jul - 6 Aug 2026
@@ -15,7 +70,66 @@ semester_1:
     - Students’ Union Day 4 Sep 2026
 semester_2:
   weeks:
-    - 1 2 4 1 2 3 4 5 6 1 2 3 4 5 6
+    - week: 1
+      type: teaching
+      start: 2027-01-04
+      end: 2027-01-10
+    - week: 2
+      type: teaching
+      start: 2027-01-11
+      end: 2027-01-17
+    - week: 3
+      type: teaching
+      start: 2027-01-18
+      end: 2027-01-24
+    - week: 4
+      type: teaching
+      start: 2027-01-25
+      end: 2027-01-31
+    - week: 5
+      type: teaching
+      start: 2027-02-01
+      end: 2027-02-07
+    - week: 6
+      type: teaching
+      start: 2027-02-08
+      end: 2027-02-14
+    - week: 7
+      type: teaching
+      start: 2027-02-15
+      end: 2027-02-21
+    - week: 8
+      type: recess
+      start: 2027-02-22
+      end: 2027-02-28
+    - week: 9
+      type: teaching
+      start: 2027-03-01
+      end: 2027-03-07
+    - week: 10
+      type: teaching
+      start: 2027-03-08
+      end: 2027-03-14
+    - week: 11
+      type: teaching
+      start: 2027-03-15
+      end: 2027-03-21
+    - week: 12
+      type: teaching
+      start: 2027-03-22
+      end: 2027-03-28
+    - week: 13
+      type: teaching
+      start: 2027-03-29
+      end: 2027-04-04
+    - week: 14
+      type: exam
+      start: 2027-04-05
+      end: 2027-04-11
+    - week: 15
+      type: exam
+      start: 2027-04-12
+      end: 2027-04-18
   public_holidays:
     - National Day 9 Aug 2026
     - Deepavali 8 Nov 2026

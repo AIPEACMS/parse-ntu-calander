@@ -11,12 +11,14 @@ import yaml
 
 from text import pdf_to_text, detect_year
 from semester import split_semester_blocks, parse_semester
+from semester_weeks import semester_start, week_ladder
 
 
 def extract_calendar(pdf_path: Path) -> dict:
     text = pdf_to_text(pdf_path)
     lines = text.split("\n")
     year = detect_year(text)
+    year_start = int(year.split("-")[0])
 
     semesters = []
     for label, srow, erow in split_semester_blocks(lines):
@@ -25,8 +27,12 @@ def extract_calendar(pdf_path: Path) -> dict:
             entry["note"] = _clean_note(lines[srow + 1:erow])
             semesters.append(entry)
             continue
+
+        sem_num = int(label.split()[-1])
         parsed = parse_semester(lines, srow, erow)
-        entry["weeks"] = parsed["weeks"]
+        # Replace raw grid rows with the clean dated week ladder.
+        start = semester_start(sem_num, text, year_start)
+        entry["weeks"] = week_ladder(start)
         if parsed["holidays"]:
             entry["public_holidays"] = parsed["holidays"]
         if parsed["events"]:
@@ -37,7 +43,6 @@ def extract_calendar(pdf_path: Path) -> dict:
 
 
 def _clean_note(lines: list[str]) -> str:
-    import re
     from text import clean
     return clean(" ".join(
         l for l in lines
@@ -58,7 +63,10 @@ def to_yaml(cal: dict) -> str:
         if sem.get("weeks"):
             lines.append("  weeks:")
             for w in sem["weeks"]:
-                lines.append(f"    - {w}")
+                lines.append(f"    - week: {w['week']}")
+                lines.append(f"      type: {w['type']}")
+                lines.append(f"      start: {w['start']}")
+                lines.append(f"      end: {w['end']}")
         for field in ("public_holidays", "key_events"):
             if sem.get(field):
                 lines.append(f"  {field}:")

@@ -1,11 +1,66 @@
 academic_year: 2025-26
 semester_1:
   weeks:
-    - 1 2 3 4 5 1 2 4 1 2 3 4 5 6 Teaching Week
-    - 6 7 8 9 10 11 12 3 4 5 6 7 8 9 5 7 8 9 10 11 12 13 Recess Week
-    - 13 14 15 16 17 18 19 1 10 11 12 13 14 15 16 6 14 15 16 17 18 19 20 Revision and Examination
-    - 20 21 22 23 24 25 26 2 17 18 19 20 21 22 23 7 21 22 23 24 25 26 27
-    - 27 28 29 30 31 3 24 25 26 27 28 29 30 28 29 30
+    - week: 1
+      type: teaching
+      start: 2025-08-11
+      end: 2025-08-17
+    - week: 2
+      type: teaching
+      start: 2025-08-18
+      end: 2025-08-24
+    - week: 3
+      type: teaching
+      start: 2025-08-25
+      end: 2025-08-31
+    - week: 4
+      type: teaching
+      start: 2025-09-01
+      end: 2025-09-07
+    - week: 5
+      type: teaching
+      start: 2025-09-08
+      end: 2025-09-14
+    - week: 6
+      type: teaching
+      start: 2025-09-15
+      end: 2025-09-21
+    - week: 7
+      type: teaching
+      start: 2025-09-22
+      end: 2025-09-28
+    - week: 8
+      type: recess
+      start: 2025-09-29
+      end: 2025-10-05
+    - week: 9
+      type: teaching
+      start: 2025-10-06
+      end: 2025-10-12
+    - week: 10
+      type: teaching
+      start: 2025-10-13
+      end: 2025-10-19
+    - week: 11
+      type: teaching
+      start: 2025-10-20
+      end: 2025-10-26
+    - week: 12
+      type: teaching
+      start: 2025-10-27
+      end: 2025-11-02
+    - week: 13
+      type: teaching
+      start: 2025-11-03
+      end: 2025-11-09
+    - week: 14
+      type: exam
+      start: 2025-11-10
+      end: 2025-11-16
+    - week: 15
+      type: exam
+      start: 2025-11-17
+      end: 2025-11-23
   key_events:
     - Convocation 22 Jul - 1 Aug 2025
     - UG Freshmen Orientation 21 Jul - 8 Aug 2025
@@ -15,7 +70,66 @@ semester_1:
     - Students’ Union Day 5 Sep 2025
 semester_2:
   weeks:
-    - 1 2 3 4 1 2 3 4 5 6 7 1 2 3 4 5 6 7
+    - week: 1
+      type: teaching
+      start: 2026-01-05
+      end: 2026-01-11
+    - week: 2
+      type: teaching
+      start: 2026-01-12
+      end: 2026-01-18
+    - week: 3
+      type: teaching
+      start: 2026-01-19
+      end: 2026-01-25
+    - week: 4
+      type: teaching
+      start: 2026-01-26
+      end: 2026-02-01
+    - week: 5
+      type: teaching
+      start: 2026-02-02
+      end: 2026-02-08
+    - week: 6
+      type: teaching
+      start: 2026-02-09
+      end: 2026-02-15
+    - week: 7
+      type: teaching
+      start: 2026-02-16
+      end: 2026-02-22
+    - week: 8
+      type: recess
+      start: 2026-02-23
+      end: 2026-03-01
+    - week: 9
+      type: teaching
+      start: 2026-03-02
+      end: 2026-03-08
+    - week: 10
+      type: teaching
+      start: 2026-03-09
+      end: 2026-03-15
+    - week: 11
+      type: teaching
+      start: 2026-03-16
+      end: 2026-03-22
+    - week: 12
+      type: teaching
+      start: 2026-03-23
+      end: 2026-03-29
+    - week: 13
+      type: teaching
+      start: 2026-03-30
+      end: 2026-04-05
+    - week: 14
+      type: exam
+      start: 2026-04-06
+      end: 2026-04-12
+    - week: 15
+      type: exam
+      start: 2026-04-13
+      end: 2026-04-19
   public_holidays:
     - National Day 9 Aug 2025
     - Deepavali 20 Oct 2025
